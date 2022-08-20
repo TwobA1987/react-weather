@@ -103,7 +103,7 @@ export default function Weather() {
       </div>
       <div className="Author">
         <a
-          href="https://github.com/TwobA1987/my-weather-app"
+          href="https://github.com/TwobA1987/react-weather"
           target="_blank"
           rel="noreferrer"
         >
