@@ -1,0 +1,63 @@
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 30px auto;
+  border-radius: 50%;
+  background-color: #608dba;
+  opacity: 0.7;
+}
+.MainBorder {
+  margin: 0 auto;
+  margin-top: 30px;
+  background-image: linear-gradient(#defcf9, #cadefc, #c3bef0, #cca8e9);
+  max-width: 600px;
+  border-radius: 10px;
+  padding: 30px;
+  font-family: "Courgette", cursive;
+}
+.Author {
+  font-family: monospace;
+  opacity: 0.7;
+  font-size: 15px;
+  text-align: center;
+}
+.current-temp,
+.weather-condition {
+  font-size: 30px;
+  color: #2f495e;
+}
+.weather-condition {
+  position: relative;
+  top: 20px;
+  left: 30px;
+  list-style: none;
+}
+.units {
+  position: relative;
+  top: -10px;
+  font-size: 15px;
+}
+.celecius,
+.farenhite {
+  text-decoration: none;
+}
+
+.wind-speed,
+.max-temp,
+.min-temp,
+.current-date,
+.degree-sign {
+  font-size: 17px;
+  color: #2f495e;
+  opacity: 0.8;
+}
+.max-temp,
+.min-temp {
+  font-size: 20px;
+}
+.current-date {
+  padding-left: 70px;
+}
