@@ -12,6 +12,7 @@ export default function Weather() {
       maxTemp: Math.round(response.data.main.temp_max),
       minTemp: Math.round(response.data.main.temp_min),
       wind: Math.round(response.data.wind.speed),
+      icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
     });
   }
   function updateCity(event) {
@@ -29,12 +30,7 @@ export default function Weather() {
         <h1>{weatherData.city}</h1>
         <div className="row">
           <div className="col-6">
-            <img
-              src={"https://ssl.gstatic.com/onebox/weather/64/sunny.png"}
-              alt=""
-              className="icon"
-              id="icon"
-            />
+            <img src={weatherData.icon} alt="" className="icon" id="icon" />
             <span className="current-temp" id="current-temp">
               {weatherData.currentTemp}
             </span>
